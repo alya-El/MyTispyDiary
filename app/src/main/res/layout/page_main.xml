@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainPage">
+
+    <ImageView
+        android:id="@+id/tipsylogo"
+        android:layout_width="321dp"
+        android:layout_height="350dp"
+        android:contentDescription="@string/todo"
+        android:paddingLeft="100dp"
+        android:textAlignment="center"
+        android:windowSoftInputMode="adjustNothing"
+        app:layout_constraintBottom_toTopOf="@id/button_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tipsy_logo" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="307dp"
+        android:layout_height="68dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/oval"
+        android:backgroundTint="#DD1A25"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+
+        android:textSize="24sp"
+        android:windowSoftInputMode="adjustNothing"
+        app:layout_constraintBottom_toTopOf="@id/button_reg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tipsylogo" />
+
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="732dp"
+        android:background="@drawable/oval"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:shadowColor="#DD1A25"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#DD1A25"
+
+        android:textSize="24sp"
+        android:windowSoftInputMode="adjustNothing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_login" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

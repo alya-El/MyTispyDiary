@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "494318811649",
+    "firebase_url": "https://projectapp-dc4cc.firebaseio.com",
+    "project_id": "projectapp-dc4cc",
+    "storage_bucket": "projectapp-dc4cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494318811649:android:fb5aca0e697935dbe8de00",
+        "android_client_info": {
+          "package_name": "com.example.projectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494318811649-j9cabbe4c118nhkvqn3ml2hdnbp7nrgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0U7S_hKydR8Io9KoQnR78hCdl1kGcZaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494318811649-j9cabbe4c118nhkvqn3ml2hdnbp7nrgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
